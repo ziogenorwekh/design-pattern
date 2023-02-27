@@ -8,8 +8,8 @@ public class CaptionDisplayArticle extends DisplayArticleTemplate {
     }
 
     @Override
-    protected void footer() {
-        System.out.println("article.getFooter() = " + article.getFooter());
+    protected void title() {
+        System.out.println("article.getTitle() = " + article.getTitle());
     }
 
     @Override
@@ -24,7 +24,7 @@ public class CaptionDisplayArticle extends DisplayArticleTemplate {
     }
 
     @Override
-    protected void title() {
-        System.out.println("article.getTitle() = " + article.getTitle());
+    protected void footer() {
+        System.out.println("article.getFooter() = " + article.getFooter());
     }
 }
